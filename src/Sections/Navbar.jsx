@@ -1,6 +1,14 @@
 import  {useState} from 'react'
 import {navLinks} from "../Constants/index.js";
 
+/**
+ * Returns a list of links for the navigation bar.
+ *
+ * The links are generated from the items in the `navLinks` array,
+ * which is defined in the `Constants/index.js` file.
+ *
+ * @returns {JSX.Element} The list of navigation links.
+ */
 const NavItems = () => {
 
     return (
