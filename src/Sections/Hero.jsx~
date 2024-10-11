@@ -4,7 +4,6 @@ import CanvasLoader from "../components/CanvasLoader.jsx";
 import HackerRoom from "../components/HackerRoom.jsx";
 import {Canvas} from "@react-three/fiber";
 import {useMediaQuery} from "react-responsive";
-import {calculateSizes} from "../Constants/index.js";
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 767})
     const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1023})
