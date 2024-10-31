@@ -1,6 +1,13 @@
 
 import { useGLTF, useTexture } from '@react-three/drei';
 
+/**
+ * A Three.js component representing the hacker room table with the computer.
+ *
+ * @function HackerRoom
+ * @param {Object} props - The properties of the component.
+ * @returns {Object} A Three.js component.
+ */
 const HackerRoom = (props) => {
     const { nodes, materials } = useGLTF('/models/hacker-room.glb');
 
